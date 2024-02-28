@@ -1,18 +1,25 @@
-import link from "next/link"
+import Link from "next/link"
+import styles from "./menu.module.css";
+import Image from "next/image";
+
 export default function Menu(){
     return(
-        <header>
-            <h1></h1>
+        <header className={styles.cabecalho}>
+            <Image
+                width={100}
+                height={100}
+                src={"https://www.ifms.edu.br/marcaifms.png"} />
             <nav>
                 <ul>
-                    <link href="/">
 
-                    <li>Home</li>
-                    </link>
+                    <Link href="/">
+                        <li>Home</li>
+                    </Link>
 
-                    <link href="/">
-                    <li>Registrar</li>
-                    </link>
+                    <Link href="/">
+                        <li>Registrar</li>
+                    </Link>
+
                 </ul>
             </nav>
         </header>

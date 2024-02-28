@@ -1,9 +1,7 @@
 export default function Footer(){
     return(
-        <Footer>
-            <p>
-                THIS IS A REAL FOOTER CREATED BY BRUNO
-            </p>
-        </Footer>
+        <footer>
+            <p>TODOS OS DIREITOS RESERVADOS PARA EU 'BRUNO'</p>
+        </footer>
     )
 }
