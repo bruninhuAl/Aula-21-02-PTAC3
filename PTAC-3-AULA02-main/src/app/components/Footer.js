@@ -1,7 +1,15 @@
+import Image from "next/image";
+import styles from "../components/footer.module.css"
+
 export default function Footer(){
     return(
-        <footer>
-            <p>TODOS OS DIREITOS RESERVADOS PARA EU 'BRUNO'</p>
+        <footer className={styles.fix}>
+            <p className={styles.text}>TODOS OS DIREITOS RESERVADOS PARA EU 'BRUNO'</p>
+            <Image
+                width= {30}
+                height={30}
+                src={"https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"}
+            />
         </footer>
     )
 }
