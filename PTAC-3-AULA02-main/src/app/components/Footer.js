@@ -6,8 +6,8 @@ export default function Footer(){
         <footer className={styles.fix}>
             <p className={styles.text}>TODOS OS DIREITOS RESERVADOS PARA EU 'BRUNO'</p>
             <Image
-                width= {30}
-                height={30}
+                width= {200}
+                height={50}
                 src={"https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"}
             />
         </footer>

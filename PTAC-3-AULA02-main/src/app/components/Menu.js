@@ -16,8 +16,12 @@ export default function Menu(){
                         <li>Home</li>
                     </Link>
 
-                    <Link href="/">
+                    <Link href="/registro">
                         <li>Registrar</li>
+                    </Link>
+
+                    <Link href="/localizacao">
+                        <li>Localização</li>
                     </Link>
 
                 </ul>
